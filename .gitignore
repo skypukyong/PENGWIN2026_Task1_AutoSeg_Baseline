@@ -1,0 +1,20 @@
+# Generated data / artifacts
+data/
+raw_data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# nnUNet local outputs (in case anyone runs with paths inside the repo)
+nnUNet_raw/
+nnUNet_preprocessed/
+nnUNet_results/
